@@ -2,12 +2,11 @@ import styled from 'styled-components';
 import {CSSProperties} from 'react';
 
 type FlexWrapperPropsType = {
-    flexDirection?: CSSProperties['flexDirection'] //вместо string, тогда свойства будут подсказываться
-    /*flexDirection?: string*/
-    justifyContent?: string
-    alignItems?: string
-    flexWrap?: string
-    gap?: string
+    flexDirection?: CSSProperties['flexDirection']
+    justifyContent?: CSSProperties['justifyContent']
+    alignItems?: CSSProperties['alignItems']
+    flexWrap?: CSSProperties['flexWrap']
+    gap?: CSSProperties['gap']
 }
 
 export const FlexWrapper = styled.div<FlexWrapperPropsType>`

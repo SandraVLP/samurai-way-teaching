@@ -1,10 +1,9 @@
-import {Posts} from "./Posts/Posts";
-import {PostInput} from "./Posts/PostInput";
+import {PostInput} from "./Posts/PostInput/PostInput";
 import bg from "../../../assets/images/bg.png";
 import styled from "styled-components";
 import {FlexWrapper} from "../../../components/FlexWrapper";
 import {CardProfile} from "./CardProfile/CardProfile";
-
+import {Post} from "./Posts/Post";
 
 export const Profile = () => {
     return (
@@ -14,8 +13,8 @@ export const Profile = () => {
                 <PostInput/>
             </FlexWrapper>
             <PostsWrapper>
-                <Posts/>
-                <Posts/>
+                <Post/>
+                <Post/>
             </PostsWrapper>
         </Section>
     );

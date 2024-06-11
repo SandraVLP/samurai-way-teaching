@@ -2,19 +2,18 @@ import * as React from 'react';
 import {Header} from "./layout/header/Header";
 import {Navigation} from "./layout/sections/Navigation/Navigation";
 import {Profile} from "./layout/sections/Profile/Profile";
-import {BrowserRouter} from "react-router-dom";
 import styled from "styled-components";
 
 
 function App() {
     return (
-        <BrowserRouter>
+        <div>
             <Header/>
             <ContentWrapper>
                 <Navigation/>
                 <Profile/>
             </ContentWrapper>
-        </BrowserRouter>
+        </div>
     );
 }
 
