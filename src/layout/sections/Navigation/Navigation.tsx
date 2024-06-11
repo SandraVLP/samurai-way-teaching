@@ -1,20 +1,18 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom'
-import styled from 'styled-components'
 import { S } from './Navigation_styles'
 
 export const Navigation = () => {
     return (
-        <nav className='nav' style={{flexShrink: '0', maxWidth: '200px', width: '100%'}}>
-            <S.StyledUl>
-                <S.StyledLi>
-                    <S.StyledLink to='/profile'>Profile</S.StyledLink>
-                </S.StyledLi>
-                <S.StyledLi><S.StyledLink to='/dialogs'>Messages</S.StyledLink> </S.StyledLi>
-                <S.StyledLi><S.StyledLink to='/news'>News</S.StyledLink> </S.StyledLi>
-                <S.StyledLi><S.StyledLink to='/music'>Music</S.StyledLink> </S.StyledLi>
-                <S.StyledLi><S.StyledLink to='/settings'>Settings</S.StyledLink> </S.StyledLi>
-            </S.StyledUl>
-        </nav>
+        <S.Nav>
+            <S.Ul>
+                <S.Li>
+                    <S.Link to='/profile'>Profile</S.Link>
+                </S.Li>
+                <S.Li><S.Link to='/dialogs'>Messages</S.Link> </S.Li>
+                <S.Li><S.Link to='/news'>News</S.Link> </S.Li>
+                <S.Li><S.Link to='/music'>Music</S.Link> </S.Li>
+                <S.Li><S.Link to='/settings'>Settings</S.Link> </S.Li>
+            </S.Ul>
+        </S.Nav>
     )
 }
