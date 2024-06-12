@@ -8,14 +8,14 @@ import {Post} from "./Posts/Post";
 export const Profile = () => {
     return (
         <Section>
-            <FlexWrapper justifyContent={'space-around'}>
+            {/*<FlexWrapper justifyContent={'space-around'}>
                 <CardProfile/>
                 <PostInput/>
             </FlexWrapper>
             <PostsWrapper>
                 <Post/>
                 <Post/>
-            </PostsWrapper>
+            </PostsWrapper>*/}
         </Section>
     );
 };
