@@ -34,7 +34,7 @@ const Link = styled(NavLink)`
     }
 `
 
-export const S = {
+export const Sn = {
     Nav,
     Ul,
     Li,

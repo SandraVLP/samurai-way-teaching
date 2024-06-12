@@ -12,7 +12,7 @@ const Image = styled.img`
   width: 50px;
 `;
 
-export const S = {
+export const Sh = {
   Header,
   Image,
 };
