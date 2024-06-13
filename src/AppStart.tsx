@@ -1,6 +1,4 @@
 import * as React from "react";
-import { Header } from "./layout/header/Header";
-import { Navigation } from "./layout/sections/Navigation/Navigation";
 import { Profile } from "./layout/sections/Profile/Profile";
 import styled from "styled-components";
 import { Sh } from "./layout/header/Header_styles";
